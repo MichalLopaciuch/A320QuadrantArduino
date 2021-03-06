@@ -39,7 +39,6 @@ void setup()
   Joystick.begin();
   Joystick.setThrottleRange(MIN_THROTTLE, MAX_THROTTLE);
   Joystick.setButton(L_THRUST_REV_SW, 0);
-  pinMode(9, INPUT);
 }
 
 int last = L_REV_ON;
